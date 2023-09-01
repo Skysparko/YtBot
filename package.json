@@ -1,0 +1,28 @@
+{
+  "name": "ytbot",
+  "version": "1.0.0",
+  "description": "this is a bot i am creating to automate yt creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run index.js"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.11.0",
+    "@ffmpeg/ffmpeg": "^0.11.6",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^8.9.0",
+    "googleapis": "^120.0.0",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.22",
+    "ytdl-core": "^4.11.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2"
+  },
+  "author": "skysparko",
+  "license": "ISC",
+  "type": "module"
+}
